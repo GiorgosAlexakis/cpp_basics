@@ -22,7 +22,10 @@ using namespace std;
 * The address of a variable can be obtained by preceding the name of a variable with an uppersand sign(&)
 * known as the address-of operator(&)
 * For example:
+* 
 */
+
+
 int main()
 {
 
@@ -84,7 +87,6 @@ int main()
 	cout << "*p2: " << *p2 << endl;
 	cout << "firstvalue: " << firstvalue << endl;
 	cout << "secondvalue: " << secondvalue << endl;
-
-
+	
 	return 0;
 }
