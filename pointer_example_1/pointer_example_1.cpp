@@ -16,7 +16,7 @@ void print_vector_left_to_right(const vector<int>& v)
     for (auto i = v.begin(); i != v.end(); ++i) cout << *i << " ";
     cout << endl;
 }
-int address_of_max_value(const vector<int>& v)
+int *address_of_max_value(const vector<int>& v)
 {
 	int max = 0;
 	int* pointer_to_max = nullptr;
@@ -29,13 +29,11 @@ int address_of_max_value(const vector<int>& v)
 			pointer_to_max = &max;
 		}
 	}
-	if (pointer_to_max == nullptr) return -1;
-	else {
-		cout << "Memory address of pointer pointing to the max value: " << pointer_to_max << endl;
-		return *pointer_to_max;
-	}
-	
+
+	cout << "Memory address of pointer pointing to the max value: " << pointer_to_max << endl;
+	return pointer_to_max;	
 }
+
 int main()
 {
 	int n;
@@ -48,5 +46,5 @@ int main()
 		cin >> input_vector[i];
 	}
 	print_vector_left_to_right(input_vector);
-	cout << "Max value(we return the dereferenced pointer(the integer value):" << address_of_max_value(input_vector);
+	cout << "Max value:" << *address_of_max_value(input_vector);
 }
