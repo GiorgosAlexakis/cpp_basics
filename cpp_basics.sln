@@ -9,8 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "address_of_operator_and_poi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrays_pointers_references", "arrays_pointers_references\arrays_pointers_references.vcxproj", "{6A8AB510-D796-4AB0-9E9E-967C4A182DDA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "structs", "structs\structs.vcxproj", "{C01051BC-B508-45A8-B4BA-B45EDF89489F}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointer_example_1", "pointer_example_1\pointer_example_1.vcxproj", "{B7CE5AF9-8E79-46FC-B803-EA1A01F8B5A1}"
 EndProject
 Global
@@ -45,14 +43,6 @@ Global
 		{6A8AB510-D796-4AB0-9E9E-967C4A182DDA}.Release|x64.Build.0 = Release|x64
 		{6A8AB510-D796-4AB0-9E9E-967C4A182DDA}.Release|x86.ActiveCfg = Release|Win32
 		{6A8AB510-D796-4AB0-9E9E-967C4A182DDA}.Release|x86.Build.0 = Release|Win32
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Debug|x64.ActiveCfg = Debug|x64
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Debug|x64.Build.0 = Debug|x64
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Debug|x86.ActiveCfg = Debug|Win32
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Debug|x86.Build.0 = Debug|Win32
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Release|x64.ActiveCfg = Release|x64
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Release|x64.Build.0 = Release|x64
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Release|x86.ActiveCfg = Release|Win32
-		{C01051BC-B508-45A8-B4BA-B45EDF89489F}.Release|x86.Build.0 = Release|Win32
 		{B7CE5AF9-8E79-46FC-B803-EA1A01F8B5A1}.Debug|x64.ActiveCfg = Debug|x64
 		{B7CE5AF9-8E79-46FC-B803-EA1A01F8B5A1}.Debug|x64.Build.0 = Debug|x64
 		{B7CE5AF9-8E79-46FC-B803-EA1A01F8B5A1}.Debug|x86.ActiveCfg = Debug|Win32
