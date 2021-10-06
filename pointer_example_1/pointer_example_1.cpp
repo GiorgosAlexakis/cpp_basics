@@ -12,9 +12,9 @@ using namespace std;
 */
 void print_vector_left_to_right(const vector<int>& v)
 {
-    cout << "Printing inserted array:" << endl;
-    for (auto i = v.begin(); i != v.end(); ++i) cout << *i << " ";
-    cout << endl;
+  cout << "Printing inserted array:" << endl;
+  for (auto i = v.begin(); i != v.end(); ++i) cout << *i << " ";
+  cout << endl;
 }
 int *address_of_max_value(const vector<int>& v)
 {

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="structs.cpp">
+    <ClCompile Include="classes_structs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
